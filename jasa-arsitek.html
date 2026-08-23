@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="index, follow" />
-  <title>Jasa Arsitek Rumah &amp; Bangunan Profesional | Maroon Arsitek</title>
+  <title>Jasa Arsitek Rumah dan Bangunan Profesional | Maroon Arsitek</title>
   <meta name="description"
     content="Jasa arsitek rumah mewah, villa, ruko, dan bangunan komersial profesional di Jakarta dan seluruh Indonesia. Dapatkan konsep 2D, 3D photorealistic, gambar kerja, dan RAB lengkap." />
   <meta name="keywords"
@@ -14,7 +14,7 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Jasa Arsitek Rumah &amp; Bangunan Profesional | Maroon Arsitek" />
+  <meta property="og:title" content="Jasa Arsitek Rumah dan Bangunan Profesional | Maroon Arsitek" />
   <meta property="og:description"
     content="Layanan jasa arsitektur profesional untuk merancang hunian dan bangunan impian Anda dengan perpaduan estetika tinggi dan fungsionalitas optimal." />
   <meta property="og:url" content="https://maroonarsitek.web.id/jasa-arsitek.html" />
@@ -23,7 +23,7 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Jasa Arsitek Rumah &amp; Bangunan Profesional | Maroon Arsitek" />
+  <meta name="twitter:title" content="Jasa Arsitek Rumah dan Bangunan Profesional | Maroon Arsitek" />
   <meta name="twitter:description"
     content="Jasa arsitek rumah dan bangunan komersial berpengalaman di Indonesia." />
 
@@ -45,22 +45,206 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
   <!-- Main CSS -->
-  <link rel="stylesheet" href="assets/css/main.css?v=1.2" />
+  <link rel="stylesheet" href="assets/css/main.css?v=1.3" />
 
-  <!-- JSON-LD Schema -->
+  <!-- JSON-LD Structured Data Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Jasa Arsitek Maroon Arsitek",
-    "provider": {
-      "@type": "Organization",
-      "name": "Maroon Arsitek",
-      "url": "https://maroonarsitek.web.id"
-    },
-    "serviceType": "Architectural Design Service",
-    "description": "Layanan jasa desain arsitektur rumah tinggal, villa, ruko, dan gedung komersial.",
-    "areaServed": "Indonesia"
+    "@graph": [
+      {
+        "@type": ["LocalBusiness", "GeneralContractor", "ProfessionalService"],
+        "@id": "https://maroonarsitek.web.id/#organization",
+        "name": "Maroon Arsitek",
+        "alternateName": "Maroon Arsitek Indonesia",
+        "url": "https://maroonarsitek.web.id/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://maroonarsitek.web.id/#logo",
+          "url": "https://maroonarsitek.web.id/assets/img/logo-header.webp",
+          "caption": "Logo Maroon Arsitek"
+        },
+        "image": [
+          "https://maroonarsitek.web.id/assets/img/layanan/gambar-kerja-denah-arsitektur.webp",
+          "https://maroonarsitek.web.id/assets/img/layanan/arsitektur-residensial-minimalis.webp",
+          "https://maroonarsitek.web.id/assets/img/layanan/fasad-rumah-mewah-eksterior.webp"
+        ],
+        "description": "Maroon Arsitek adalah perusahaan jasa arsitek dan kontraktor profesional yang melayani desain arsitektur, pembangunan rumah, renovasi, dan desain interior di Jakarta dan seluruh Indonesia.",
+        "telephone": "+62-889-8964-3555",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. TB Simatupang",
+          "addressLocality": "Jakarta Selatan",
+          "addressRegion": "DKI Jakarta",
+          "postalCode": "12430",
+          "addressCountry": "ID"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -6.2922,
+          "longitude": 106.7997
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "08:00",
+            "closes": "17:00"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Jakarta"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          }
+        ],
+        "serviceType": [
+          "Jasa Arsitek",
+          "Jasa Kontraktor Rumah",
+          "Jasa Kontraktor Bangunan",
+          "Jasa Renovasi",
+          "Jasa Desain Interior"
+        ],
+        "knowsAbout": [
+          "Desain Arsitektur Rumah",
+          "Desain Rumah Mewah Modern",
+          "Gambar Kerja DED dan PBG",
+          "Visualisasi 3D Photorealistic",
+          "RAB Bangunan"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "120",
+          "bestRating": "5",
+          "worstRating": "1"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://maroonarsitek.web.id/jasa-arsitek.html#webpage",
+        "url": "https://maroonarsitek.web.id/jasa-arsitek.html",
+        "name": "Jasa Arsitek Rumah dan Bangunan Profesional | Maroon Arsitek",
+        "description": "Jasa arsitek rumah mewah, villa, ruko, dan bangunan komersial profesional di Jakarta dan seluruh Indonesia. Dapatkan konsep 2D, 3D photorealistic, gambar kerja, dan RAB lengkap.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://maroonarsitek.web.id/#website",
+          "name": "Maroon Arsitek",
+          "url": "https://maroonarsitek.web.id/"
+        },
+        "about": {
+          "@id": "https://maroonarsitek.web.id/jasa-arsitek.html#service"
+        },
+        "breadcrumb": {
+          "@id": "https://maroonarsitek.web.id/jasa-arsitek.html#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://maroonarsitek.web.id/jasa-arsitek.html#service",
+        "name": "Jasa Arsitek Rumah dan Bangunan Profesional",
+        "serviceType": "Architectural Design Service",
+        "category": "Architecture & Engineering",
+        "description": "Layanan jasa desain arsitektur rumah tinggal, villa, ruko, dan bangunan komersial profesional dengan gambar kerja teknis DED, 3D photorealistic, dan RAB detail.",
+        "provider": {
+          "@id": "https://maroonarsitek.web.id/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Jakarta"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Paket Deliverables Jasa Arsitek",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Konsep dan Denah 2D",
+                "description": "Penataan layout ruang dan denah tiap lantai sesuai kebutuhan fungsi dan luas lahan."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Visual 3D Photorealistic",
+                "description": "Render 3D eksterior dan fasad fotorealistik resolusi tinggi dari berbagai sudut pandang."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Gambar Kerja Teknis (DED)",
+                "description": "Gambar arsitektur, struktur pondasi, dan mekanikal elektrikal plumbing (MEP) detail."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Rencana Anggaran Biaya (RAB)",
+                "description": "Rincian volume pekerjaan, spesifikasi material, dan estimasi biaya konstruksi akurat."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Berkas Izin PBG / IMB",
+                "description": "Format gambar teknis berstandar pengajuan Persetujuan Bangunan Gedung (PBG) resmi daerah."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Pengawasan Berkala Arsitek",
+                "description": "Pendampingan teknis dan konsultasi berkala saat masa pembangunan berlangsung."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://maroonarsitek.web.id/jasa-arsitek.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://maroonarsitek.web.id/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Jasa Arsitek",
+            "item": "https://maroonarsitek.web.id/jasa-arsitek.html"
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -249,13 +433,12 @@
               <img src="assets/img/layanan/gambar-kerja-denah-arsitektur.webp"
                 alt="Gambar kerja denah dan perancangan arsitektur Maroon Arsitek"
                 class="img-fluid rounded-4 shadow-lg w-100" style="object-fit: cover; max-height: 440px;" />
-              <div class="rounded-4 p-3 position-absolute shadow"
-                style="bottom: -20px; right: 20px; background: var(--color-maroon); color: #fff; max-width: 260px;">
+              <div class="service-image-badge shadow">
                 <div class="d-flex align-items-center gap-2">
-                  <i class="bi bi-award-fill text-gold" style="font-size: 1.8rem;"></i>
+                  <i class="bi bi-award-fill badge-icon"></i>
                   <div>
-                    <div style="font-weight: 700; font-size: .95rem;">100% Berstandar PBG</div>
-                    <div style="font-size: .75rem; color: rgba(255,255,255,.8);">Gambar teknis siap izin &amp; konstruksi</div>
+                    <div class="badge-title">100% Berstandar PBG</div>
+                    <div class="badge-desc">Gambar teknis siap izin &amp; konstruksi</div>
                   </div>
                 </div>
               </div>

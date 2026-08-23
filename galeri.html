@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="index, follow" />
-  <title>Galeri Proyek Desain Arsitektur &amp; Konstruksi | Maroon Arsitek</title>
+  <title>Galeri Proyek Desain Arsitektur dan Konstruksi | Maroon Arsitek</title>
   <meta name="description"
     content="Lihat portofolio dan galeri karya Maroon Arsitek: desain arsitektur rumah mewah, desain interior modern, renovasi hunian, dan proyek bangunan komersial di Indonesia." />
   <meta name="keywords"
@@ -14,7 +14,7 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Galeri Proyek Desain Arsitektur &amp; Konstruksi | Maroon Arsitek" />
+  <meta property="og:title" content="Galeri Proyek Desain Arsitektur dan Konstruksi | Maroon Arsitek" />
   <meta property="og:description"
     content="Jelajahi galeri hasil karya desain arsitektur, desain interior, renovasi rumah, dan pelaksanaan konstruksi terbaik oleh Maroon Arsitek." />
   <meta property="og:url" content="https://maroonarsitek.web.id/galeri.html" />
@@ -23,7 +23,7 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Galeri Proyek Desain Arsitektur &amp; Konstruksi | Maroon Arsitek" />
+  <meta name="twitter:title" content="Galeri Proyek Desain Arsitektur dan Konstruksi | Maroon Arsitek" />
   <meta name="twitter:description"
     content="Jelajahi galeri hasil karya arsitektur dan konstruksi terbaik oleh Maroon Arsitek." />
 
@@ -47,19 +47,125 @@
   <!-- Main CSS -->
   <link rel="stylesheet" href="assets/css/main.css?v=1.2" />
 
-  <!-- Structured Data Schema -->
+  <!-- JSON-LD Structured Data Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Galeri Proyek Maroon Arsitek",
-    "description": "Portofolio dan galeri hasil karya arsitektur, interior, dan konstruksi Maroon Arsitek.",
-    "url": "https://maroonarsitek.web.id/galeri.html",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Maroon Arsitek",
-      "url": "https://maroonarsitek.web.id"
-    }
+    "@graph": [
+      {
+        "@type": ["LocalBusiness", "GeneralContractor", "ProfessionalService"],
+        "@id": "https://maroonarsitek.web.id/#organization",
+        "name": "Maroon Arsitek",
+        "alternateName": "Maroon Arsitek Indonesia",
+        "url": "https://maroonarsitek.web.id/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://maroonarsitek.web.id/#logo",
+          "url": "https://maroonarsitek.web.id/assets/img/logo-header.webp",
+          "caption": "Logo Maroon Arsitek"
+        },
+        "image": [
+          "https://maroonarsitek.web.id/assets/img/galeri/arsitektur-rumah-mewah-modern.webp",
+          "https://maroonarsitek.web.id/assets/img/hero/hero-bg.webp",
+          "https://maroonarsitek.web.id/assets/img/about/about.webp"
+        ],
+        "description": "Maroon Arsitek adalah perusahaan jasa arsitek dan kontraktor profesional yang melayani desain arsitektur, pembangunan rumah, renovasi, dan desain interior di Jakarta dan seluruh Indonesia.",
+        "telephone": "+62-889-8964-3555",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. TB Simatupang",
+          "addressLocality": "Jakarta Selatan",
+          "addressRegion": "DKI Jakarta",
+          "postalCode": "12430",
+          "addressCountry": "ID"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -6.2922,
+          "longitude": 106.7997
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "08:00",
+            "closes": "17:00"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Jakarta"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          }
+        ],
+        "serviceType": [
+          "Jasa Arsitek",
+          "Jasa Kontraktor Rumah",
+          "Jasa Kontraktor Bangunan",
+          "Jasa Renovasi",
+          "Jasa Desain Interior"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "120",
+          "bestRating": "5",
+          "worstRating": "1"
+        }
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://maroonarsitek.web.id/galeri.html#page",
+        "name": "Galeri Proyek & Portofolio Karya | Maroon Arsitek",
+        "description": "Portofolio dan galeri hasil karya arsitektur, desain interior, renovasi, dan pembangunan rumah serta gedung komersial Maroon Arsitek.",
+        "url": "https://maroonarsitek.web.id/galeri.html",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://maroonarsitek.web.id/#website",
+          "name": "Maroon Arsitek",
+          "url": "https://maroonarsitek.web.id/"
+        },
+        "about": {
+          "@id": "https://maroonarsitek.web.id/#organization"
+        },
+        "publisher": {
+          "@id": "https://maroonarsitek.web.id/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://maroonarsitek.web.id/galeri.html#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://maroonarsitek.web.id/galeri.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://maroonarsitek.web.id/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Galeri",
+            "item": "https://maroonarsitek.web.id/galeri.html"
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>

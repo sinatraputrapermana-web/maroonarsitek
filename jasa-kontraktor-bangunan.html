@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="index, follow" />
-  <title>Jasa Kontraktor Bangunan Komersial, Ruko &amp; Kantor | Maroon Arsitek</title>
+  <title>Jasa Kontraktor Bangunan Komersial, Ruko dan Kantor | Maroon Arsitek</title>
   <meta name="description"
     content="Jasa kontraktor bangunan komersial profesional: pembangunan ruko, gedung perkantoran, kafe, restoran, dan fasilitas usaha di Jakarta dan sekitarnya. Tepat waktu dan berstandar teknis tinggi." />
   <meta name="keywords"
@@ -14,7 +14,7 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Jasa Kontraktor Bangunan Komersial, Ruko &amp; Kantor | Maroon Arsitek" />
+  <meta property="og:title" content="Jasa Kontraktor Bangunan Komersial, Ruko dan Kantor | Maroon Arsitek" />
   <meta property="og:description"
     content="Pembangunan gedung komersial, ruko, perkantoran, dan fasilitas bisnis berstandar profesional di Indonesia." />
   <meta property="og:url" content="https://maroonarsitek.web.id/jasa-kontraktor-bangunan.html" />
@@ -45,22 +45,190 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
   <!-- Main CSS -->
-  <link rel="stylesheet" href="assets/css/main.css?v=1.2" />
+  <link rel="stylesheet" href="assets/css/main.css?v=1.3" />
 
-  <!-- JSON-LD Schema -->
+  <!-- JSON-LD Structured Data Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Jasa Kontraktor Bangunan Komersial Maroon Arsitek",
-    "provider": {
-      "@type": "Organization",
-      "name": "Maroon Arsitek",
-      "url": "https://maroonarsitek.web.id"
-    },
-    "serviceType": "Commercial Construction Service",
-    "description": "Layanan konstruksi dan pembangunan ruko, kantor, restoran, klinik, dan gedung komersial.",
-    "areaServed": "Indonesia"
+    "@graph": [
+      {
+        "@type": ["LocalBusiness", "GeneralContractor", "ProfessionalService"],
+        "@id": "https://maroonarsitek.web.id/#organization",
+        "name": "Maroon Arsitek",
+        "alternateName": "Maroon Arsitek Indonesia",
+        "url": "https://maroonarsitek.web.id/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://maroonarsitek.web.id/#logo",
+          "url": "https://maroonarsitek.web.id/assets/img/logo-header.webp",
+          "caption": "Logo Maroon Arsitek"
+        },
+        "image": [
+          "https://maroonarsitek.web.id/assets/img/layanan/gedung-kantor-komersial-modern.webp",
+          "https://maroonarsitek.web.id/assets/img/layanan/finishing-konstruksi-interior.webp",
+          "https://maroonarsitek.web.id/assets/img/layanan/pemasangan-lantai-dinding-modern.webp"
+        ],
+        "description": "Maroon Arsitek adalah perusahaan jasa arsitek dan kontraktor profesional yang melayani desain arsitektur, pembangunan rumah, renovasi, dan desain interior di Jakarta dan seluruh Indonesia.",
+        "telephone": "+62-889-8964-3555",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. TB Simatupang",
+          "addressLocality": "Jakarta Selatan",
+          "addressRegion": "DKI Jakarta",
+          "postalCode": "12430",
+          "addressCountry": "ID"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -6.2922,
+          "longitude": 106.7997
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "08:00",
+            "closes": "17:00"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Jakarta"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          }
+        ],
+        "serviceType": [
+          "Jasa Arsitek",
+          "Jasa Kontraktor Rumah",
+          "Jasa Kontraktor Bangunan",
+          "Jasa Renovasi",
+          "Jasa Desain Interior"
+        ],
+        "knowsAbout": [
+          "Pembangunan Ruko dan Kantor",
+          "Konstruksi Bangunan Komersial",
+          "Manajemen Konstruksi Gedung",
+          "Izin PBG Bangunan Gedung",
+          "RAB Efisien Bangunan"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "120",
+          "bestRating": "5",
+          "worstRating": "1"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://maroonarsitek.web.id/jasa-kontraktor-bangunan.html#webpage",
+        "url": "https://maroonarsitek.web.id/jasa-kontraktor-bangunan.html",
+        "name": "Jasa Kontraktor Bangunan Komersial, Ruko dan Kantor | Maroon Arsitek",
+        "description": "Jasa kontraktor bangunan komersial, ruko, kantor, restoran, dan gedung usaha profesional di Jakarta dan seluruh Indonesia. Timeline terukur dan standar konstruksi tinggi.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://maroonarsitek.web.id/#website",
+          "name": "Maroon Arsitek",
+          "url": "https://maroonarsitek.web.id/"
+        },
+        "about": {
+          "@id": "https://maroonarsitek.web.id/jasa-kontraktor-bangunan.html#service"
+        },
+        "breadcrumb": {
+          "@id": "https://maroonarsitek.web.id/jasa-kontraktor-bangunan.html#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://maroonarsitek.web.id/jasa-kontraktor-bangunan.html#service",
+        "name": "Jasa Kontraktor Bangunan Komersial, Ruko dan Kantor",
+        "serviceType": "Commercial Construction Service",
+        "category": "Commercial Construction & Engineering",
+        "description": "Layanan konstruksi dan pembangunan ruko, kantor, kafe, restoran, klinik, dan gedung komersial dengan manajemen proyek profesional dan timeline terukur.",
+        "provider": {
+          "@id": "https://maroonarsitek.web.id/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Jakarta"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Sektor Bangunan Komersial",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Pembangunan Ruko dan Shophouse",
+                "description": "Konstruksi unit ruko modern 2-4 lantai dengan struktur kokoh dan fleksibilitas fungsi usaha."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Gedung Kantor dan Coworking",
+                "description": "Pembangunan kantor representatif, tata ruang kerja ergonomis, dan sistem MEP terintegrasi."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Restoran, Cafe dan Retail",
+                "description": "Konstruksi bangunan usaha kuliner dan retail dengan fasad estetik dan sirkulasi pengunjung nyaman."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Klinik dan Fasilitas Usaha",
+                "description": "Pembangunan sarana medis dan bisnis dengan standar zonasi sanitasi dan kepatuhan perizinan."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://maroonarsitek.web.id/jasa-kontraktor-bangunan.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://maroonarsitek.web.id/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Jasa Kontraktor Bangunan",
+            "item": "https://maroonarsitek.web.id/jasa-kontraktor-bangunan.html"
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -249,13 +417,12 @@
               <img src="assets/img/layanan/gedung-kantor-komersial-modern.webp"
                 alt="Gedung kantor dan properti komersial modern — Maroon Arsitek"
                 class="img-fluid rounded-4 shadow-lg w-100" style="object-fit: cover; max-height: 440px;" />
-              <div class="rounded-4 p-3 position-absolute shadow"
-                style="bottom: -20px; right: 20px; background: var(--color-maroon); color: #fff; max-width: 270px;">
+              <div class="service-image-badge shadow">
                 <div class="d-flex align-items-center gap-2">
-                  <i class="bi bi-briefcase-fill text-gold" style="font-size: 1.8rem;"></i>
+                  <i class="bi bi-briefcase-fill badge-icon"></i>
                   <div>
-                    <div style="font-weight: 700; font-size: .95rem;">Standar Komersial Tinggi</div>
-                    <div style="font-size: .75rem; color: rgba(255,255,255,.8);">Kekuatan struktur &amp; estetika bisnis</div>
+                    <div class="badge-title">Standar Komersial Tinggi</div>
+                    <div class="badge-desc">Kekuatan struktur &amp; estetika bisnis</div>
                   </div>
                 </div>
               </div>

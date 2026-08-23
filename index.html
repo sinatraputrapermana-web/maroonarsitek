@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="index, follow" />
-  <title>Jasa Arsitek &amp; Kontraktor Profesional | Maroon Arsitek</title>
+  <title>Jasa Arsitek dan Kontraktor Profesional | Maroon Arsitek</title>
   <meta name="description"
     content="Maroon Arsitek melayani jasa arsitek, kontraktor rumah, renovasi, dan desain interior di Jakarta dan seluruh Indonesia. Konsultasikan proyek Anda sekarang." />
   <meta name="keywords"
@@ -14,7 +14,7 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Jasa Arsitek &amp; Kontraktor Profesional | Maroon Arsitek" />
+  <meta property="og:title" content="Jasa Arsitek dan Kontraktor Profesional | Maroon Arsitek" />
   <meta property="og:description"
     content="Maroon Arsitek melayani jasa arsitek, kontraktor rumah, renovasi, dan desain interior di Jakarta dan seluruh Indonesia." />
   <meta property="og:url" content="https://maroonarsitek.web.id/" />
@@ -23,7 +23,7 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Jasa Arsitek &amp; Kontraktor Profesional | Maroon Arsitek" />
+  <meta name="twitter:title" content="Jasa Arsitek dan Kontraktor Profesional | Maroon Arsitek" />
   <meta name="twitter:description"
     content="Maroon Arsitek melayani jasa arsitek, kontraktor, renovasi, dan desain interior di Indonesia." />
 
@@ -54,42 +54,249 @@
   <!-- Main CSS -->
   <link rel="stylesheet" href="assets/css/main.css?v=1.2" />
 
-  <!-- JSON-LD Structured Data -->
+  <!-- JSON-LD Structured Data Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": "https://maroonarsitek.web.id/#organization",
-    "name": "Maroon Arsitek",
-    "url": "https://maroonarsitek.web.id",
-    "logo": "https://maroonarsitek.web.id/assets/img/logo-header.webp",
-    "description": "Maroon Arsitek adalah perusahaan jasa arsitek dan kontraktor profesional yang melayani desain arsitektur, pembangunan rumah, renovasi, dan desain interior di Jakarta dan seluruh Indonesia.",
-    "telephone": "+62088989643555",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Jakarta",
-      "addressRegion": "DKI Jakarta",
-      "addressCountry": "ID"
-    },
-    "areaServed": ["Jakarta", "Indonesia"],
-    "serviceType": ["Jasa Arsitek", "Jasa Kontraktor Rumah", "Jasa Kontraktor Bangunan", "Jasa Renovasi", "Jasa Desain Interior"],
-    "priceRange": "$$",
-    "openingHours": "Mo-Sa 08:00-17:00",
-    "sameAs": []
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Maroon Arsitek",
-    "url": "https://maroonarsitek.web.id",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://maroonarsitek.web.id/blog?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
+    "@graph": [
+      {
+        "@type": ["LocalBusiness", "GeneralContractor", "ProfessionalService"],
+        "@id": "https://maroonarsitek.web.id/#organization",
+        "name": "Maroon Arsitek",
+        "alternateName": "Maroon Arsitek Indonesia",
+        "url": "https://maroonarsitek.web.id/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://maroonarsitek.web.id/#logo",
+          "url": "https://maroonarsitek.web.id/assets/img/logo-header.webp",
+          "caption": "Logo Maroon Arsitek"
+        },
+        "image": [
+          "https://maroonarsitek.web.id/assets/img/hero/hero-bg.webp",
+          "https://maroonarsitek.web.id/assets/img/galeri/arsitektur-rumah-mewah-modern.webp",
+          "https://maroonarsitek.web.id/assets/img/about/about.webp"
+        ],
+        "description": "Maroon Arsitek adalah perusahaan jasa arsitek dan kontraktor profesional yang melayani desain arsitektur, pembangunan rumah, renovasi, dan desain interior di Jakarta dan seluruh Indonesia.",
+        "telephone": "+62-889-8964-3555",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. TB Simatupang",
+          "addressLocality": "Jakarta Selatan",
+          "addressRegion": "DKI Jakarta",
+          "postalCode": "12430",
+          "addressCountry": "ID"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -6.2922,
+          "longitude": 106.7997
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "08:00",
+            "closes": "17:00"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Jakarta"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          }
+        ],
+        "serviceType": [
+          "Jasa Arsitek",
+          "Jasa Kontraktor Rumah",
+          "Jasa Kontraktor Bangunan",
+          "Jasa Renovasi",
+          "Jasa Desain Interior"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "120",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Ir. Hendra Gunawan"
+            },
+            "datePublished": "2026-02-15",
+            "reviewBody": "Maroon Arsitek sangat profesional dari tahap konsep denah hingga pembangunan selesai. Transparansi RAB dan ketepatan timeline sangat membantu kami mengontrol anggaran.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "dr. Sylvia Anggraeni"
+            },
+            "datePublished": "2026-03-10",
+            "reviewBody": "Hasil desain interior dan fasad rumah sangat memukau. Rumah lama kami disulap menjadi hunian modern tropis yang adem dan mewah. Sangat puas dengan layanannya.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Antonius Wijaya"
+            },
+            "datePublished": "2026-04-05",
+            "reviewBody": "Pengawasan konstruksi di lapangan sangat ketat dan teratur. Setiap minggu selalu ada laporan progres berkala. Sangat recommended untuk kontraktor bangunan komersial.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Bpk. Rahmat Hidayat, S.E."
+            },
+            "datePublished": "2026-05-12",
+            "reviewBody": "Konsep desain villa tropis modern yang dibuat Maroon Arsitek benar-benar melampaui ekspektasi. Pencahayaan alami dan tata ruangnya sangat apik. Tamu villa kami selalu memuji arsitekturnya.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Ibu Claudia Natasha"
+            },
+            "datePublished": "2026-06-20",
+            "reviewBody": "Tim Maroon Arsitek sangat komunikatif dan memahami kebutuhan bisnis F&B kami. Desain interior estetik dan instagramable dengan efisiensi tata ruang yang optimal.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Bpk. Dimas Pratama, M.Sc."
+            },
+            "datePublished": "2026-07-08",
+            "reviewBody": "Dari denah 2D, visual 3D photorealistic, hingga gambar kerja struktur dan MEP sangat detail. Pembangunan selesai tepat waktu sesuai jadwal tanpa biaya tak terduga.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://maroonarsitek.web.id/#website",
+        "name": "Maroon Arsitek",
+        "url": "https://maroonarsitek.web.id/",
+        "publisher": {
+          "@id": "https://maroonarsitek.web.id/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://maroonarsitek.web.id/blog.html?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://maroonarsitek.web.id/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://maroonarsitek.web.id/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://maroonarsitek.web.id/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Berapa biaya jasa arsitek rumah?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Biaya jasa arsitek rumah berbeda-beda tergantung luas bangunan, kompleksitas desain, dan lingkup pekerjaan gambar kerja. Untuk mendapatkan estimasi yang tepat, siapkan ukuran lahan, luas bangunan yang diinginkan, jumlah lantai, dan kebutuhan ruang. Hubungi kami untuk konsultasi awal gratis."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apa saja yang didapat dari jasa arsitek Maroon Arsitek?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Layanan jasa arsitek kami mencakup: denah 2D, desain 3D eksterior dan interior, gambar teknis arsitektur, gambar struktur, gambar MEP, RAB, spesifikasi material, dan koordinasi selama pembangunan berlangsung."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Berapa lama proses pembangunan rumah?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Durasi pembangunan rumah bergantung pada luas bangunan, tipe konstruksi, dan kompleksitas desain. Secara umum, rumah 1 lantai 100–150 m² memerlukan waktu 4–6 bulan, sementara rumah 2 lantai 200–250 m² memerlukan 7–9 bulan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah Maroon Arsitek melayani di luar Jakarta?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ya. Maroon Arsitek melayani proyek di Jakarta dan berbagai wilayah di Indonesia, termasuk Tangerang, Bekasi, Depok, Bogor, dan kota-kota lainnya. Untuk proyek jasa arsitek (desain saja), kami juga melayani secara online ke seluruh Indonesia."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apa perbedaan kontraktor dan pemborong?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kontraktor profesional memiliki struktur perusahaan resmi, tim terorganisir, proses pengerjaan terstandar, dan bertanggung jawab penuh atas kualitas proyek. Pemborong umumnya bekerja secara informal tanpa legalitas usaha dan struktur organisasi yang jelas, sehingga risiko proyek lebih tinggi."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>

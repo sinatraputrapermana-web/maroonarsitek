@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="index, follow" />
-  <title>Jasa Desain Interior Rumah, Kantor &amp; Komersial | Maroon Arsitek</title>
+  <title>Jasa Desain Interior Rumah, Kantor dan Komersial | Maroon Arsitek</title>
   <meta name="description"
     content="Jasa desain interior rumah mewah, apartemen, kantor, cafe, dan kitchen set custom di Jakarta dan sekitarnya. Konsep 3D photorealistic, custom furniture, dan pengerjaan fit-out presisi." />
   <meta name="keywords"
@@ -14,7 +14,7 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Jasa Desain Interior Rumah, Kantor &amp; Komersial | Maroon Arsitek" />
+  <meta property="og:title" content="Jasa Desain Interior Rumah, Kantor dan Komersial | Maroon Arsitek" />
   <meta property="og:description"
     content="Ciptakan ruang interior yang mewah, nyaman, dan fungsional dengan layanan desain interior dan custom furniture terintegrasi oleh Maroon Arsitek." />
   <meta property="og:url" content="https://maroonarsitek.web.id/jasa-desain-interior.html" />
@@ -23,7 +23,7 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Jasa Desain Interior Rumah &amp; Komersial | Maroon Arsitek" />
+  <meta name="twitter:title" content="Jasa Desain Interior Rumah dan Komersial | Maroon Arsitek" />
   <meta name="twitter:description"
     content="Desain interior rumah mewah, apartemen, dan kantor komersial profesional di Indonesia." />
 
@@ -45,22 +45,190 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
   <!-- Main CSS -->
-  <link rel="stylesheet" href="assets/css/main.css?v=1.2" />
+  <link rel="stylesheet" href="assets/css/main.css?v=1.3" />
 
-  <!-- JSON-LD Schema -->
+  <!-- JSON-LD Structured Data Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Jasa Desain Interior Maroon Arsitek",
-    "provider": {
-      "@type": "Organization",
-      "name": "Maroon Arsitek",
-      "url": "https://maroonarsitek.web.id"
-    },
-    "serviceType": "Interior Design & Fit-Out Service",
-    "description": "Layanan perancangan interior, visual 3D, custom furniture, dan pengerjaan fit out interior ruangan.",
-    "areaServed": "Indonesia"
+    "@graph": [
+      {
+        "@type": ["LocalBusiness", "GeneralContractor", "ProfessionalService"],
+        "@id": "https://maroonarsitek.web.id/#organization",
+        "name": "Maroon Arsitek",
+        "alternateName": "Maroon Arsitek Indonesia",
+        "url": "https://maroonarsitek.web.id/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://maroonarsitek.web.id/#logo",
+          "url": "https://maroonarsitek.web.id/assets/img/logo-header.webp",
+          "caption": "Logo Maroon Arsitek"
+        },
+        "image": [
+          "https://maroonarsitek.web.id/assets/img/layanan/desain-interior-ruang-utama.webp",
+          "https://maroonarsitek.web.id/assets/img/layanan/desain-interior-minimalis-elegan.webp",
+          "https://maroonarsitek.web.id/assets/img/layanan/interior-dapur-ruang-makan.webp"
+        ],
+        "description": "Maroon Arsitek adalah perusahaan jasa arsitek dan kontraktor profesional yang melayani desain arsitektur, pembangunan rumah, renovasi, dan desain interior di Jakarta dan seluruh Indonesia.",
+        "telephone": "+62-889-8964-3555",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. TB Simatupang",
+          "addressLocality": "Jakarta Selatan",
+          "addressRegion": "DKI Jakarta",
+          "postalCode": "12430",
+          "addressCountry": "ID"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -6.2922,
+          "longitude": 106.7997
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "08:00",
+            "closes": "17:00"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Jakarta"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          }
+        ],
+        "serviceType": [
+          "Jasa Arsitek",
+          "Jasa Kontraktor Rumah",
+          "Jasa Kontraktor Bangunan",
+          "Jasa Renovasi",
+          "Jasa Desain Interior"
+        ],
+        "knowsAbout": [
+          "Desain Interior Mewah",
+          "Custom Furniture Minimalis",
+          "Interior Kantor dan Ruko",
+          "Kitchen Set Modern",
+          "Fit Out Interior"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "120",
+          "bestRating": "5",
+          "worstRating": "1"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://maroonarsitek.web.id/jasa-desain-interior.html#webpage",
+        "url": "https://maroonarsitek.web.id/jasa-desain-interior.html",
+        "name": "Jasa Desain Interior Rumah, Kantor dan Komersial | Maroon Arsitek",
+        "description": "Jasa desain interior rumah tinggal, apartemen, kantor, dan komersial profesional di Jakarta dan seluruh Indonesia. Konsep 3D photorealistic, custom furniture, dan pengerjaan fit out rapi.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://maroonarsitek.web.id/#website",
+          "name": "Maroon Arsitek",
+          "url": "https://maroonarsitek.web.id/"
+        },
+        "about": {
+          "@id": "https://maroonarsitek.web.id/jasa-desain-interior.html#service"
+        },
+        "breadcrumb": {
+          "@id": "https://maroonarsitek.web.id/jasa-desain-interior.html#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://maroonarsitek.web.id/jasa-desain-interior.html#service",
+        "name": "Jasa Desain Interior Rumah, Kantor dan Komersial",
+        "serviceType": "Interior Design & Fit-Out Service",
+        "category": "Interior Architecture & Design",
+        "description": "Layanan perancangan desain interior, visualisasi 3D photorealistic, pembuatan custom furniture berkualitas tinggi, dan pengerjaan fit out ruangan terintegrasi.",
+        "provider": {
+          "@id": "https://maroonarsitek.web.id/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Jakarta"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Layanan Ruang & Fit-Out Interior",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Living Room, Foyer dan Dining",
+                "description": "Penataan backdrop TV, partisi dekoratif, panel dinding (wainscoting/HPL), dan pencahayaan hangat."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Kitchen Set dan Pantry Modern",
+                "description": "Desain dapur ergonomis, cabinet HPL/duco anti rayap, counter top granit/marmer, dan sink terpasang presisi."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Master Bedroom dan Walk-in Closet",
+                "description": "Tempat tidur custom dengan headboard elegan, lemari pakaian kaca full ceiling, dan meja rias modern."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Office, Coworking dan Komersial",
+                "description": "Interior kantor representatif, ruang meeting kedap suara, area resepsionis elegan, dan kafe berkonsep tematik."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://maroonarsitek.web.id/jasa-desain-interior.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://maroonarsitek.web.id/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Jasa Desain Interior",
+            "item": "https://maroonarsitek.web.id/jasa-desain-interior.html"
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -249,13 +417,12 @@
               <img src="assets/img/layanan/desain-ruang-tamu-modern.webp"
                 alt="Desain interior living room modern mewah — Maroon Arsitek"
                 class="img-fluid rounded-4 shadow-lg w-100" style="object-fit: cover; max-height: 440px;" />
-              <div class="rounded-4 p-3 position-absolute shadow"
-                style="bottom: -20px; right: 20px; background: var(--color-maroon); color: #fff; max-width: 270px;">
+              <div class="service-image-badge shadow">
                 <div class="d-flex align-items-center gap-2">
-                  <i class="bi bi-gem text-gold" style="font-size: 1.8rem;"></i>
+                  <i class="bi bi-gem badge-icon"></i>
                   <div>
-                    <div style="font-weight: 700; font-size: .95rem;">Custom Made Premium</div>
-                    <div style="font-size: .75rem; color: rgba(255,255,255,.8);">Presisi milimeter &amp; finishing halus</div>
+                    <div class="badge-title">Custom Made Premium</div>
+                    <div class="badge-desc">Presisi milimeter &amp; finishing halus</div>
                   </div>
                 </div>
               </div>
