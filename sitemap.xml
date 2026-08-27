@@ -31,7 +31,7 @@
   <!-- 4. Halaman Blog & Inspirasi -->
   <url>
     <loc>https://maroonarsitek.web.id/blog.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -177,6 +177,30 @@
   <url>
     <loc>https://maroonarsitek.web.id/langkah-memilih-kontraktor-gedung.html</loc>
     <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 23. Artikel Cluster 4 Renovasi: Mengapa Harus Pakai Kontraktor Renovasi Rumah, Bukan Tukang Harian? -->
+  <url>
+    <loc>https://maroonarsitek.web.id/kontraktor-renovasi-rumah-vs-harian.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 24. Artikel Cluster 5 Desain Interior: Panduan Memilih Desain Interior Rumah Modern Minimalis yang Hangat -->
+  <url>
+    <loc>https://maroonarsitek.web.id/desain-interior-rumah-hangat.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 25. Artikel Cluster 6 Estimasi Biaya: Berapa Biaya Bangun Rumah per m2 di Jakarta? Rincian Anggaran 2026 -->
+  <url>
+    <loc>https://maroonarsitek.web.id/biaya-bangun-rumah-per-m2.html</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
