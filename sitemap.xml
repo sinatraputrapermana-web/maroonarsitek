@@ -31,7 +31,7 @@
   <!-- 4. Halaman Blog & Inspirasi -->
   <url>
     <loc>https://maroonarsitek.web.id/blog.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -201,6 +201,30 @@
   <url>
     <loc>https://maroonarsitek.web.id/biaya-bangun-rumah-per-m2.html</loc>
     <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 26. Artikel Cluster 1 Desain Arsitek: Langkah Menggunakan Jasa Desain Rumah untuk Hasil Maksimal -->
+  <url>
+    <loc>https://maroonarsitek.web.id/langkah-menggunakan-jasa-desain-rumah.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 27. Artikel Cluster 2 Kontraktor Rumah: Jasa Bangun Rumah dari Nol: SOP Material dan Pondasi Kuat -->
+  <url>
+    <loc>https://maroonarsitek.web.id/jasa-bangun-rumah-dari-nol.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 28. Artikel Cluster 3 Kontraktor Bangunan: Jasa Konstruksi Bangunan Komersial: Efisiensi Pondasi Baja dan Beton -->
+  <url>
+    <loc>https://maroonarsitek.web.id/jasa-konstruksi-bangunan-komersial.html</loc>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
