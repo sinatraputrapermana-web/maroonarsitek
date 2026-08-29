@@ -252,6 +252,54 @@
     });
   });
 
+  // Service FAQ Accordion - Silky Smooth Dynamic Height
+  function initServiceFaq() {
+    const faqItems = document.querySelectorAll('.service-faq-item');
+    if (!faqItems.length) return;
+
+    faqItems.forEach(item => {
+      const btn = item.querySelector('.service-faq-question');
+      const answer = item.querySelector('.service-faq-answer');
+      if (!btn || !answer) return;
+
+      // Set initial open state
+      if (item.classList.contains('active')) {
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+      } else {
+        answer.style.maxHeight = '0px';
+      }
+
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        const isOpen = item.classList.contains('active');
+
+        // Close all other items smoothly
+        faqItems.forEach(otherItem => {
+          if (otherItem !== item && otherItem.classList.contains('active')) {
+            otherItem.classList.remove('active');
+            const otherAnswer = otherItem.querySelector('.service-faq-answer');
+            if (otherAnswer) otherAnswer.style.maxHeight = '0px';
+          }
+        });
+
+        // Toggle current item
+        if (isOpen) {
+          item.classList.remove('active');
+          answer.style.maxHeight = '0px';
+        } else {
+          item.classList.add('active');
+          answer.style.maxHeight = answer.scrollHeight + 'px';
+        }
+      });
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initServiceFaq);
+  } else {
+    initServiceFaq();
+  }
+
 
 
   /* ── WhatsApp tracking ──────────────────────────────────────────────────── */
