@@ -31,7 +31,7 @@
   <!-- 4. Halaman Blog & Inspirasi -->
   <url>
     <loc>https://maroonarsitek.web.id/blog.html</loc>
-    <lastmod>2026-08-29</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -249,6 +249,30 @@
   <url>
     <loc>https://maroonarsitek.web.id/cara-menghitung-biaya-bangun-rumah.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 32. Artikel 31 Agustus 2026: Peran Penting Arsitek Rumah dalam Mencegah Konstruksi Salah Bangun -->
+  <url>
+    <loc>https://maroonarsitek.web.id/peran-penting-arsitek-rumah-tinggal.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 33. Artikel 31 Agustus 2026: Inovasi Kontraktor Rumah Minimalis: Mewujudkan Fasad Estetik Presisi -->
+  <url>
+    <loc>https://maroonarsitek.web.id/inovasi-kontraktor-rumah-minimalis-presisi.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 34. Artikel 31 Agustus 2026: Strategi Pembangunan Ruko Modern Minimalis di Lahan Strategis -->
+  <url>
+    <loc>https://maroonarsitek.web.id/strategi-pembangunan-ruko-minimalis.html</loc>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
