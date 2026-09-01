@@ -31,7 +31,7 @@
   <!-- 4. Halaman Blog & Inspirasi -->
   <url>
     <loc>https://maroonarsitek.web.id/blog.html</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -273,6 +273,30 @@
   <url>
     <loc>https://maroonarsitek.web.id/strategi-pembangunan-ruko-minimalis.html</loc>
     <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 35. Artikel 1 September 2026: Jasa Renovasi Bangunan Komersial: Redesign Interior dan Fasad Ruko -->
+  <url>
+    <loc>https://maroonarsitek.web.id/jasa-renovasi-bangunan-komersial.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 36. Artikel 1 September 2026: Kunci Pencahayaan (Lighting) dalam Menghidupkan Interior Rumah Modern -->
+  <url>
+    <loc>https://maroonarsitek.web.id/lighting-interior-rumah-modern.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 37. Artikel 1 September 2026: Mengenal RAB Pembangunan Rumah: Contoh Template dan Cara Menyusunnya -->
+  <url>
+    <loc>https://maroonarsitek.web.id/rab-pembangunan-rumah-lengkap.html</loc>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
