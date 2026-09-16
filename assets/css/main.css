@@ -3448,6 +3448,42 @@ img {
   margin-bottom: 8px;
 }
 
+/* Article Body In-Content Links */
+.article-body a {
+  color: #a72339;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #a72339;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  transition: all 0.2s ease;
+}
+
+.article-body a:hover {
+  color: #6B1E2B;
+  text-decoration-color: #6B1E2B;
+  background-color: rgba(167, 35, 57, 0.08);
+  border-radius: 2px;
+}
+
+.article-body .baca-juga-box a {
+  color: #a72339;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.article-body .baca-juga-box a:hover {
+  text-decoration: underline;
+  color: #6B1E2B;
+  background-color: transparent;
+}
+
+.article-body .promo-banner,
+.article-body .promo-banner a {
+  text-decoration: none !important;
+}
+
 /* Baca Juga Box */
 .baca-juga-box {
   background: #fbf8f3;

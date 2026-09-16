@@ -31,7 +31,7 @@
   <!-- 4. Halaman Blog & Inspirasi -->
   <url>
     <loc>https://maroonarsitek.web.id/blog.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -489,6 +489,30 @@
   <url>
     <loc>https://maroonarsitek.web.id/rumus-cepat-estimasi-biaya-bangun-rumah.html</loc>
     <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 62. Artikel 16 September 2026: Peran Arsitek Cegah Kesalahan Bangun Rumah -->
+  <url>
+    <loc>https://maroonarsitek.web.id/peran-arsitek-cegah-salah-bangun.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 63. Artikel 16 September 2026: Kontraktor Rumah Minimalis, Presisi Sesuai 3D -->
+  <url>
+    <loc>https://maroonarsitek.web.id/kontraktor-rumah-minimalis-fasad-presisi-3d.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 64. Artikel 16 September 2026: Strategi Bangun Ruko di Lahan Strategis -->
+  <url>
+    <loc>https://maroonarsitek.web.id/strategi-pembangunan-ruko-lahan-strategis.html</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
