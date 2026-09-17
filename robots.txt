@@ -1,19 +1,138 @@
 # Robots.txt for Maroon Arsitek
 # Website: https://maroonarsitek.web.id
+# LLM Context: https://maroonarsitek.web.id/llms.txt
 
+# ==============================================================================
+# 1. UNIVERSAL CRAWLER DIRECTIVE
+# ==============================================================================
 User-agent: *
 Allow: /
+Allow: /assets/img/
+Allow: /llms.txt
 Disallow: /assets/vendor/
 
-# Search Engine Crawlers
+# ==============================================================================
+# 2. MAJOR SEARCH ENGINES
+# ==============================================================================
+# Google
 User-agent: Googlebot
-Allow: /
-
 User-agent: Googlebot-Image
-Allow: /assets/img/
-
-User-agent: Bingbot
+User-agent: Googlebot-Mobile
+User-agent: Googlebot-News
+User-agent: Storebot-Google
 Allow: /
 
-# Sitemap Location
+# Microsoft Bing
+User-agent: Bingbot
+User-agent: BingPreview
+User-agent: msnbot
+User-agent: msnbot-media
+Allow: /
+
+# Yandex
+User-agent: Yandex
+User-agent: YandexBot
+User-agent: YandexImages
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+User-agent: Baiduspider-image
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# Sogou & Naver
+User-agent: Sogou web spider
+User-agent: Yeti
+Allow: /
+
+# ==============================================================================
+# 3. ARTIFICIAL INTELLIGENCE & LLM WEB CRAWLERS
+# ==============================================================================
+# OpenAI (ChatGPT, GPT-4, GPT Search)
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic (Claude & Claude Search)
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+User-agent: Perplexity-Search
+Allow: /
+
+# Google AI & Gemini Training
+User-agent: Google-Extended
+Allow: /
+
+# Apple Intelligence & Siri
+User-agent: Applebot
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI & Llama Web Crawlers
+User-agent: FacebookBot
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Common Crawl & Open AI Datasets
+User-agent: CCBot
+Allow: /
+
+# ByteDance & TikTok AI
+User-agent: Bytespider
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Amazon AI & Alexa
+User-agent: Amazonbot
+Allow: /
+
+# Diffbot & Web KG
+User-agent: Diffbot
+Allow: /
+
+# You.com AI Search
+User-agent: YouBot
+Allow: /
+
+# Timpi, Imagesift & Other AI Crawlers
+User-agent: Timpibot
+User-agent: ImagesiftBot
+User-agent: omgilibot
+User-agent: omgili
+Allow: /
+
+# ==============================================================================
+# 4. SOCIAL MEDIA & MESSAGING LINK PREVIEW CRAWLERS
+# ==============================================================================
+User-agent: WhatsApp
+User-agent: Twitterbot
+User-agent: LinkedInBot
+User-agent: facebookexternalhit
+User-agent: TelegramBot
+User-agent: Slackbot
+User-agent: Slackbot-LinkExpanding
+User-agent: Pinterestbot
+Allow: /
+
+# ==============================================================================
+# 5. SITEMAP & AI DISCOVERY
+# ==============================================================================
 Sitemap: https://maroonarsitek.web.id/sitemap.xml

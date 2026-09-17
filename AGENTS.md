@@ -45,7 +45,9 @@ Setiap kali mengunggah artikel:
    - Perbarui angka jumlah artikel pada komentar section.
 4. Perbarui `sitemap.xml`:
    - Tambahkan entri `<url>` baru dengan `<lastmod>` yang sesuai.
-5. Jalankan audit otomatis:
+5. Perbarui `llms.txt`:
+   - Sisipkan link artikel baru pada kluster yang sesuai beserta deskripsi ringkasnya.
+6. Jalankan audit otomatis:
    - Validasi schema JSON-LD (`validate_all.js`)
    - Validasi ketersediaan gambar (`audit_all_images.js`)
    - Validasi case sensitivity (`case_sensitive_check.js`)
