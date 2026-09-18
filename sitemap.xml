@@ -31,7 +31,7 @@
   <!-- 4. Halaman Blog & Inspirasi -->
   <url>
     <loc>https://maroonarsitek.web.id/blog.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -521,6 +521,14 @@
   <url>
     <loc>https://maroonarsitek.web.id/redesign-ruko-jadi-kantor-modern.html</loc>
     <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 66. Artikel 18 September 2026: Integrasi Cahaya Alami untuk Interior Modern -->
+  <url>
+    <loc>https://maroonarsitek.web.id/integrasi-cahaya-alami-interior-rumah.html</loc>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
