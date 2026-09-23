@@ -34,19 +34,25 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
-  /* ── Nav backdrop (overlay saat mobile nav terbuka) ────────────────────── */
-  const backdrop = document.createElement('div');
-  backdrop.className = 'nav-backdrop';
-  document.body.appendChild(backdrop);
-
-  /* ── Mobile nav helpers ─────────────────────────────────────────────────── */
+  /* ── Mobile nav helpers & backdrop ───────────────────────────────────────── */
   const navMenu   = document.getElementById('navmenu');
   const navToggle = document.getElementById('mobile-nav-toggle');
   const navClose  = document.getElementById('mobile-nav-close');
+  let backdrop = null;
+
+  function getBackdrop() {
+    if (!backdrop) {
+      backdrop = document.createElement('div');
+      backdrop.className = 'nav-backdrop';
+      backdrop.addEventListener('click', closeNav);
+      document.body.appendChild(backdrop);
+    }
+    return backdrop;
+  }
 
   function openNav() {
     navMenu && navMenu.classList.add('active');
-    backdrop.classList.add('active');
+    getBackdrop().classList.add('active');
     document.body.style.overflow = 'hidden';
     if (navToggle) {
       navToggle.setAttribute('aria-expanded', 'true');
@@ -55,7 +61,7 @@
 
   function closeNav() {
     navMenu && navMenu.classList.remove('active');
-    backdrop.classList.remove('active');
+    if (backdrop) backdrop.classList.remove('active');
     document.body.style.overflow = '';
     if (navToggle) {
       navToggle.setAttribute('aria-expanded', 'false');
@@ -69,7 +75,6 @@
   });
 
   navClose && navClose.addEventListener('click', closeNav);
-  backdrop.addEventListener('click', closeNav);
 
   // Close nav when a non-dropdown link is clicked
   navMenu && navMenu.querySelectorAll('a:not(.dropdown-trigger)').forEach(a => {
@@ -153,7 +158,7 @@
 
 
   /* ── Purecounter (stat numbers) ─────────────────────────────────────────── */
-  if (typeof PureCounter !== 'undefined') {
+  if (typeof PureCounter !== 'undefined' && document.querySelector('.purecounter, [data-purecounter-start]')) {
     new PureCounter();
   }
 
@@ -163,12 +168,12 @@
   }
 
   /* ── GLightbox ──────────────────────────────────────────────────────────── */
-  if (typeof GLightbox !== 'undefined') {
+  if (typeof GLightbox !== 'undefined' && document.querySelector('.glightbox')) {
     GLightbox({ selector: '.glightbox' });
   }
 
   /* ── Testimonials Swiper Slider ─────────────────────────────────────────── */
-  if (typeof Swiper !== 'undefined') {
+  if (typeof Swiper !== 'undefined' && document.querySelector('.testimonials-slider')) {
     new Swiper('.testimonials-slider', {
       speed: 600,
       loop: true,
@@ -260,9 +265,9 @@
       const answer = item.querySelector('.service-faq-answer');
       if (!btn || !answer) return;
 
-      // Set initial open state
+      // Set initial open state without forced reflow
       if (item.classList.contains('active')) {
-        answer.style.maxHeight = answer.scrollHeight + 'px';
+        answer.style.maxHeight = 'none';
       } else {
         answer.style.maxHeight = '0px';
       }
