@@ -610,12 +610,6 @@ img {
   background-image: url('../img/hero/hero-bg.webp');
   background-size: cover;
   background-position: center;
-  transform: scale(1.05);
-  transition: transform 8s ease;
-}
-
-.hero-bg.loaded {
-  transform: scale(1);
 }
 
 .hero-overlay {
