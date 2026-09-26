@@ -31,7 +31,7 @@
   <!-- 4. Halaman Blog & Inspirasi -->
   <url>
     <loc>https://maroonarsitek.web.id/blog.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -577,6 +577,14 @@
   <url>
     <loc>https://maroonarsitek.web.id/interior-apartemen-studio-multifungsi-vertikal.html</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 73. Artikel 26 September 2026: 7 Cara Hemat Biaya Bangun Rumah, Material & Jadwal -->
+  <url>
+    <loc>https://maroonarsitek.web.id/cara-hemat-biaya-bangun-rumah-material-jadwal.html</loc>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
