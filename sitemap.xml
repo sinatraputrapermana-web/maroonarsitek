@@ -31,7 +31,7 @@
   <!-- 4. Halaman Blog & Inspirasi -->
   <url>
     <loc>https://maroonarsitek.web.id/blog.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -593,6 +593,14 @@
   <url>
     <loc>https://maroonarsitek.web.id/ide-desain-rumah-minimalis-atap-fasad-modern.html</loc>
     <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 75. Artikel 29 September 2026: Kontraktor Rumah Jabodetabek, Tim Tetap -->
+  <url>
+    <loc>https://maroonarsitek.web.id/jasa-kontraktor-rumah-tim-tetap-garansi.html</loc>
+    <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
