@@ -31,7 +31,7 @@
   <!-- 4. Halaman Blog & Inspirasi -->
   <url>
     <loc>https://maroonarsitek.web.id/blog.html</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -617,6 +617,14 @@
   <url>
     <loc>https://maroonarsitek.web.id/jasa-renovasi-rumah-kelembapan-kusen-listrik.html</loc>
     <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 78. Artikel 2 Oktober 2026: Jasa Desain Interior Custom, Storage Tersembunyi -->
+  <url>
+    <loc>https://maroonarsitek.web.id/jasa-desain-interior-custom-tersembunyi-dinding.html</loc>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
