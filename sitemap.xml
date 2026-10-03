@@ -31,7 +31,7 @@
   <!-- 4. Halaman Blog & Inspirasi -->
   <url>
     <loc>https://maroonarsitek.web.id/blog.html</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -625,6 +625,14 @@
   <url>
     <loc>https://maroonarsitek.web.id/jasa-desain-interior-custom-tersembunyi-dinding.html</loc>
     <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+<!-- 79. Artikel 3 Oktober 2026: Biaya Jasa Arsitek Rumah, Faktor Penentunya -->
+  <url>
+    <loc>https://maroonarsitek.web.id/biaya-jasa-arsitek-reputasi-skema-pembayaran.html</loc>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
